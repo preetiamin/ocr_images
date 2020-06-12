@@ -1,2 +1,2 @@
 # ocr_images
-Optical character recognition and classification of botanical images
+Optical character recognition and entity extraction from botanical images

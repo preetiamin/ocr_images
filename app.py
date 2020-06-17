@@ -1,6 +1,6 @@
-import ocr
+import model.ocr as ocr
 import streamlit as st
-import helper
+import model.helper as helper
 
 st.title('Botanical Images Text Extraction')
 type_text = st.radio('Type of Text', ('Printed', 'Handwritten'))
@@ -9,7 +9,7 @@ url = st.text_input('Enter url')
 
 if url:
     if type_text =='Printed':
-        barcode, text, img = ocr.printed_ocr(url)
+        barcode, text, conf, img = ocr.printed_ocr(url)
         mod = helper.printed_model()
         if img is not None:
             st.image(img, width = 400, channels="BGR")

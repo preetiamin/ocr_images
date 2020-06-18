@@ -8,21 +8,21 @@ This project extracts raw text from botanical specimen images using OCR with Goo
 The project was completed for startup solving the problem of entity extraction for a huge number of scanned images at a botanical garden.
 
 ## Files
-.
-├── model                   		# OCR extraction and NER training/prediction models
-│   ├── train_ner.py          		# Train custom NER model in SpaCy
-│   ├── ocr.py         			# OCR extraction using PyTesseract and Google Vision API
-│   └── helper.py               	# Entity extraction model inference
-├── data                    		# Test data model training/testing, lookup tables
-│   ├── train.csv          		# Train data to train new model
-│   ├── printed_raw_ocr_data.csv        # Test data for model prediction/evaluation
-│   ├── States.csv         		# Lookup table for states
-│   └── PlantSpecies.csv                # Lookup table for plant species names
-├── Handwritten_Prediction_Analysis.ipynb	# Notebook for load ocr data and performing prediction/evaluation for handwritten text images	
-├── Printed_Prediction_Analysis.ipynb		 table for plant species names
-├── Handwritten_Prediction_Analysis.ipynb	# Notebook for load ocr data and performing prediction/evaluation for printed text images
-├── requirements.txt			# List of libraries required 
-└── app.py
+
+├── model
+│   ├── train_ner.py - Train custom NER model in SpaCy<br/>
+│   ├── ocr.py - OCR extraction using PyTesseract and Google Vision API<br/>
+│   └── helper.py - ntity extraction model inference<br/>
+├── data
+│   ├── handwritten_train.csv - Train data to train handwritten model<br/>
+│   ├── printed_train.csv - Train data to train printed model<br/>
+│   ├── printed_raw_ocr_data.csv - Test data for model prediction/evaluation<br/>
+│   ├── States.csv. Lookup table for states<br/>
+│   └── PlantSpecies.csv - Lookup table for plant species names<br/>
+├── Handwritten_Prediction_Analysis.ipynb - Prediction/evaluation for handwritten text images<br/>
+├── Printed_Prediction_Analysis.ipynb - Prediction/evaluation for printed text images<br/>
+├── requirements.txt - List of libraries required<br/>
+└── app.py. Streamlit app<br/>
 
 ## Instructions for running the scripts:
 1. Run the following commands in the project's root directory to set up your database and model.

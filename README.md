@@ -36,13 +36,27 @@ The project was completed for startup solving the problem of entity extraction f
 
 3. Go to http://0.0.0.0:8502/
 
-## Data Overview
+## Examples
 
-The sample training data contains OCR Text and ground truth labels for 10 specimens.
+Below are examples of entity extraction with the streamlit app.
 
 ![SS 1](images/SS_1.png)
 ![SS 2](images/SS_2.png)
 
 ## Results
+
+Printed Text Model Evaluation
+
+![Printed](images/Printed_Reults.png)
+
+Sources of Error
+
+![Error](images/Printed_Errors.png)
+
+Handwritten Text Model Evaluation
+
+![Handwritten](images/Handwritten_Results.png)
+
+
 
 

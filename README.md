@@ -47,7 +47,7 @@ Below are examples of entity extraction with the streamlit app.
 
 Printed Text Model Evaluation
 
-![Printed](images/Printed_Reults.png)
+![Printed](images/Printed_Results.png)
 
 Sources of Error
 

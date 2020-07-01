@@ -39,3 +39,10 @@ The project was completed for startup solving the problem of entity extraction f
 ## Data Overview
 
 The sample training data contains OCR Text and ground truth labels for 10 specimens.
+
+![SS 1](images/SS_1.png)
+![SS 2](images/SS_2.png)
+
+## Results
+
+
